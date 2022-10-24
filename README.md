@@ -1,4 +1,4 @@
-#Project 7 - Machine Learning
+# Project 7 - Machine Learning
 
 Think of an animal.  In this project, we will write a program that will try to guess that animal. The program will ask the user a series of yes and no questions, and will eventually make its best guess.   Best of all, it will learn from each run, getting smarter with each wrong guess.
 
