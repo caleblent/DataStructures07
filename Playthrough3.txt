@@ -1,0 +1,26 @@
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+n
+Were you thinking of: a skunk?
+uhhhhhh yes
+ummmmmm yeah
+ yeah
+ yes
+ Y
+ y
+ N
+yNooooooooooo
+Hurray! I got it
+Let's play again...
+========================================================================
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+n
+Were you thinking of: a skunk?
+asdfasdf
+1234567
+!@#$%^&*
+\m\d/wef/\31
+y
+Hurray! I got it
+Let's play again...

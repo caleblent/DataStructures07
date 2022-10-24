@@ -1,0 +1,101 @@
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+y
+Were you thinking of: a mouse?
+y
+Hurray! I got it
+Let's play again...
+========================================================================
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+n
+Were you thinking of: a skunk?
+n
+Darn! what was it?
+wolf
+What is a question that is a YES for wolf but a NO for skunk?
+Does it eat deer?
+Let's try again!
+========================================================================
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+n
+Does it eat deer? (Y/N)
+y
+Were you thinking of: a wolf?
+n
+Darn! what was it?
+grizzly bear
+What is a question that is a YES for grizzly bear but a NO for wolf?
+Does it eat salmon?
+Let's try again!
+========================================================================
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+n
+Does it eat deer? (Y/N)
+n
+Were you thinking of: a skunk?
+n
+Darn! what was it?
+tuna
+What is a question that is a YES for tuna but a NO for skunk?
+Does it live in the water?
+Let's try again!
+========================================================================
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+n
+Does it eat deer? (Y/N)
+n
+Does it live in the water? (Y/N)
+y
+Were you thinking of: a tuna?
+n
+Darn! what was it?
+goldfish
+What is a question that is a YES for goldfish but a NO for tuna?
+Is it a bright orange color?
+Let's try again!
+========================================================================
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+y
+Were you thinking of: a mouse?
+n
+Darn! what was it?
+dog
+What is a question that is a YES for dog but a NO for mouse?
+Is it man's best friend?
+Let's try again!
+========================================================================
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+asdf
+asd
+f\
+yeah
+Is it man's best friend? (Y/N)
+n
+Were you thinking of: a mouse?
+n
+Darn! what was it?
+house cat
+What is a question that is a NO for house cat but a YES for mouse?
+Does it eat mice?
+Let's try again!
+========================================================================
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+y
+Is it man's best friend? (Y/N)
+n
+Does it eat mice? (Y/N)
+y
+Were you thinking of: a mouse?
+n
+Darn! what was it?
+raccoon
+What is a question that is a NO for raccoon but a YES for mouse?
+Does it breed very fast?
+Let's try again!

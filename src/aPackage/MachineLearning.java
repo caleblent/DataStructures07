@@ -107,9 +107,9 @@ public class MachineLearning {
 	 */
 	public static boolean isVowel(char character) {
 		return character == 'a' 
-				|| character == 'e' 
-				|| character == 'i' 
-				|| character == 'o' 
-				|| character == 'u';
+			|| character == 'e' 
+			|| character == 'i' 
+			|| character == 'o' 
+			|| character == 'u';
 	}
 }

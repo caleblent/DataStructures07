@@ -1,0 +1,110 @@
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+y
+Were you thinking of: a mouse?
+n
+Darn! what was it?
+horse
+What is a question that is a NO for horse but a YES for mouse?
+Does it get caught in household traps?
+Let's try again!
+==========================================
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+y
+Does it get caught in household traps? (Y/N)
+n
+Were you thinking of: a horse?
+n
+Darn! what was it?
+grizzly bear
+What is a question that is a YES for grizzly bear but a NO for horse?
+Is it hunted in Montana?
+Let's try again!
+==========================================
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+y
+Does it get caught in household traps? (Y/N)
+n
+Is it hunted in Montana? (Y/N)
+n
+Were you thinking of: a horse?
+n
+Darn! what was it?
+pirhanna
+What is a question that is a YES for pirhanna but a NO for horse?
+Does it swim in water and bite people?
+Let's try again!
+==========================================
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+n
+Were you thinking of: a skunk?
+n
+Darn! what was it?
+toad
+What is a question that is a NO for toad but a YES for skunk?
+Does it spray smelly stuff?
+Let's try again!
+==========================================
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+n
+Does it spray smelly stuff? (Y/N)
+y
+Were you thinking of: a skunk?
+n
+Darn! what was it?
+venomous spider
+What is a question that is a NO for venomous spider but a YES for skunk?
+Does it have black and white stripes
+Let's try again!
+==========================================
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+n
+Does it spray smelly stuff? (Y/N)
+n
+Were you thinking of: a toad?
+y
+Hurray! I got it
+Let's play again...
+==========================================
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+n
+Does it spray smelly stuff? (Y/N)
+n
+Were you thinking of: a toad?
+n
+Darn! what was it?
+snake
+What is a question that is a YES for snake but a NO for toad?
+Is it a reptile?
+Let's try again!
+==========================================
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+n
+Does it spray smelly stuff? (Y/N)
+n
+Is it a reptile? (Y/N)
+n
+Were you thinking of: a toad?
+n
+Darn! what was it?
+salamander
+What is a question that is a YES for salamander but a NO for toad?
+Does it have a long tail?
+Let's try again!
+==========================================
+Think of an animal. Let's see if I can guess it!
+Does this animal love cheese? (Y/N)
+n
+Does it spray smelly stuff? (Y/N)
+y
+Were you thinking of: a Does it have black and white stripes?
+y
+Hurray! I got it
+Let's play again...
