@@ -71,11 +71,40 @@ public class AnimalNode
 	public String toString() {
 		String str = "";
 		
-		str += "          " + this.data + "          \n";
-		str += this.left.getData() + "          " + this.right.getData();
+		if (this.left == null) {
+			str += "NULL";
+		} else {
+			str += this.left.getData();
+		}
+		str += " <-- " + this.data + " --> ";
+		if (this.right == null) {
+			str += "NULL";
+		} else {
+			str += this.right.getData();
+		}
 		
 		return str;
 	}
+	
+//	@Override
+//	public String toString() {
+//		String str = "";
+//		
+//		str += "       " + this.data + "       \n";
+//		if (this.left == null) {
+//			str += "NULL";
+//		} else {
+//			str += this.left.getData();
+//		}
+//		str += "          ";
+//		if (this.right == null) {
+//			str += "NULL";
+//		} else {
+//			str += this.right.getData();
+//		}
+//		
+//		return str;
+//	}
 	
 	public void print() {
 		System.out.println(this.toString());

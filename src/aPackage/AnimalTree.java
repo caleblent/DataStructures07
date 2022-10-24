@@ -73,29 +73,34 @@ public class AnimalTree {
 		if (root == null) { return -1; }
 		return 1 + Math.max(height(root.getLeft()), height(root.getRight()));
 	}
-// I don't think I actually need these 2 methods
-//	public void insertLeft(AnimalNode top, String newAnimal, String newQuestion) {
-//		// 1. new left node (with top node data)
-//		// 2. new right node (with new, user inputed animal data)
-//		// 3. update data in top node
-//		
-//		AnimalNode left = new AnimalNode(null, top.getData(), null);
-//		AnimalNode right = new AnimalNode(null, newAnimal, null);
-//		top.setLeft(left);
-//		top.setData(newQuestion);
-//		top.setRight(right);
-//	}
-//	
-//	public void inserRight(AnimalNode top, String newAnimal, String newQuestion) {
-//		// 1. new right node (with top node data)
-//		// 2. new left node (with new, user inputed animal data)
-//		// 3. update data in top node
-//		
-//		AnimalNode right = new AnimalNode(null, top.getData(), null);
-//		AnimalNode left = new AnimalNode(null, newAnimal, null);
-//		top.setLeft(left);
-//		top.setData(newQuestion);
-//		top.setRight(right);
-//	}
+	
+	public AnimalNode getRoot() {
+		return this.root;
+	}
+	
+	public void printInOrderTraversal(AnimalNode node) {
+		
+		if (node.getLeft() != null)
+			printPreOrderTraversal(node.getLeft());
+		System.out.print("<" + node.getData() + "> ");
+		if (node.getRight() != null)
+			printPreOrderTraversal(node.getRight());
+	}
+	
+	public void printPreOrderTraversal(AnimalNode node) {
+		System.out.print("<" + node.getData() + "> ");
+		if (node.getLeft() != null)
+			printPreOrderTraversal(node.getLeft());
+		if (node.getRight() != null)
+			printPreOrderTraversal(node.getRight());
+	}
+	
+	public void printPostOrderTraversal(AnimalNode node) {
+		if (node.getLeft() != null)
+			printPreOrderTraversal(node.getLeft());
+		if (node.getRight() != null)
+			printPreOrderTraversal(node.getRight());
+		System.out.print("<" + node.getData() + "> ");
+	}
 
 } //
