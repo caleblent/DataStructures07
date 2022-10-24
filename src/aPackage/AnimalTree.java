@@ -79,16 +79,15 @@ public class AnimalTree {
 	}
 	
 	public void printInOrderTraversal(AnimalNode node) {
-		
 		if (node.getLeft() != null)
 			printPreOrderTraversal(node.getLeft());
-		System.out.print("<" + node.getData() + "> ");
+		System.out.print("<<" + node.getData() + ">> ");
 		if (node.getRight() != null)
 			printPreOrderTraversal(node.getRight());
 	}
 	
 	public void printPreOrderTraversal(AnimalNode node) {
-		System.out.print("<" + node.getData() + "> ");
+		System.out.print("<<" + node.getData() + ">> ");
 		if (node.getLeft() != null)
 			printPreOrderTraversal(node.getLeft());
 		if (node.getRight() != null)
@@ -100,7 +99,7 @@ public class AnimalTree {
 			printPreOrderTraversal(node.getLeft());
 		if (node.getRight() != null)
 			printPreOrderTraversal(node.getRight());
-		System.out.print("<" + node.getData() + "> ");
+		System.out.print("<<" + node.getData() + ">> ");
 	}
 
 } //

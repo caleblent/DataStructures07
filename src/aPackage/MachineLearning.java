@@ -13,29 +13,13 @@ public class MachineLearning {
 		AnimalNode mouse = new AnimalNode(null, "mouse", null);
 		AnimalNode skunk = new AnimalNode(null, "skunk", null);
 		AnimalNode first = new AnimalNode(mouse, "Does this animal love cheese?", skunk);
-		AnimalTree tree = new AnimalTree(first);
+//		AnimalTree tree = new AnimalTree(first); // don't actually need this, except for printing out trees
 		
-//		System.out.println(mouse.isQuestion());
-//		System.out.println(skunk.isQuestion());
-//		System.out.println(first.isQuestion());
-
-		
-		tree.printInOrderTraversal(first);
-		System.out.println();
-//		tree.printPreOrderTraversal(first);
-//		System.out.println();
-//		tree.printPostOrderTraversal(first);
-		
-//		mouse.print();
-//		skunk.print();
-//		first.print();
-		int index = 0;
-		while(index < 4) {
+		// loop ends when the user cancels
+		while(true) {
 			playthroughOnce(first);
-			tree.printInOrderTraversal(first);
-			System.out.println();
+			System.out.println("========================================================================");
 		}
-//		tree.printInOrderTraversal(first);
 	
 	}
 	
@@ -67,24 +51,26 @@ public class MachineLearning {
 		} else {
 			System.out.println("Darn! what was it?");
 			String newAnimal = console.next();
-//			if (flipCoin()) {
-			System.out.println("What is a question that is a YES for " + newAnimal + " but a NO for " + node.getData() + "?");
-			String newQuestion = console.next();
-			console.nextLine();
-			node.insertRight(newAnimal, newQuestion);
-			System.out.println("Let's try again!");
-//			} else {
-//				System.out.println("What is a question that is a NO for " + newAnimal + " but a YES for <oldAnimal>?");
-//				String newQuestion = console.next();
-//				node.insertLeft(newAnimal, newQuestion);
-//				System.out.println("Let's try again!");
-//			}
+			if (flipCoin()) {
+				System.out.println("What is a question that is a YES for " + newAnimal + " but a NO for " + node.getData() + "?");
+				String newQuestion = console.next();
+				console.nextLine();
+				node.insertRight(newAnimal, newQuestion);
+				System.out.println("Let's try again!");
+			} else {
+				System.out.println("What is a question that is a NO for " + newAnimal + " but a YES for " + node.getData() + "?");
+				String newQuestion = console.next();
+				console.nextLine();
+				node.insertLeft(newAnimal, newQuestion);
+				System.out.println("Let's try again!");
+			}
 			
 		}
 	}
 	
 	/**
 	 * Helper function that flips a coin and return heads (TRUE) or tails (FALSE)
+	 * 
 	 * @return boolean
 	 */
 	public static boolean flipCoin() {
@@ -93,8 +79,8 @@ public class MachineLearning {
 	
 	
 	/**
-	 * This method prompts the user for Y/N input and continues to do so until the
-	 * user give a valid answer
+	 * Helper method that prompts the user for Y/N input and continues to do so 
+	 * until the user gives a valid answer
 	 * 
 	 * @return true IF answer == yes
 	 * @return false IF answer == no
@@ -114,6 +100,11 @@ public class MachineLearning {
 		}
 	}
 	
+	/**
+	 * Helper function to determine if the character is a vowel
+	 * @param character
+	 * @return boolean
+	 */
 	public static boolean isVowel(char character) {
 		return character == 'a' 
 				|| character == 'e' 
